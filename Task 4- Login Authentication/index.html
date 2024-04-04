@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Login Authentication Task</title>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" style="display: none;">
+                <h1 class="welcomeText">Come Join Us!!</h1>
+                <input type="text" placeholder="Username" id="register-username" />
+                <input type="text" placeholder="Email id" id="register-email" />
+                <input type="password" placeholder="Password" id="register-password" />
+                <button class="btnRegister" type="button" onclick="userRegistration()">Register</button>
+                <p class="message">Already Registered? <a href="#" onclick="displayLoginForm()">Login</a></p>
+            </form>
+
+            <form class="login-form">
+                <h1 class="welcomeText">Howdy!!</h1>
+                <input type="text" placeholder="Username" id="login-username" />
+                <input type="password" placeholder="Password" id="login-password" />
+                <button class="btnLogin" type="button" onclick="loginUser()">Login</button>
+                <p class="message">Not A Member? <a href="#" onclick="displayRegisterForm()">Register Now</a></p>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

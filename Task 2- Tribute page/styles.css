@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #f0f0ee;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-family: "Merriweather", sans-serif;
+}
+
+.header h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.sect1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    height: 700px;
+    width: 80%;
+}
+
+.para1 {
+    padding: 10px 60px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.rockQuotes {
+    height: 550px;
+    width: 500px;
+}
+
+.sect2 {
+    display: flex;
+    margin: 20px 60px;
+}
+
+.para2, .endingProse {
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.p2, .endingProse {
+    margin-top: 20px;
+}
